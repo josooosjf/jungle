@@ -1,6 +1,7 @@
 class CartsController < ApplicationController
 
   def show
+    @cart = enhanced_cart.count
   end
 
   def add_item
