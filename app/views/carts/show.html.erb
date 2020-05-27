@@ -5,7 +5,7 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
-
+  
    <% if @cart > 0 %> 
 
   <div class="panel panel-default items">
@@ -40,7 +40,11 @@
 
   <% end %>
 
+  <% if @cart == 0 %>   
+
   <h1>Your cart is empty! click here to continue shopping</h1>
   <h1><%= link_to 'Home', products_path %></h1>
+
+  <% end %>
 
 </section>
