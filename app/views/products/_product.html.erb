@@ -16,7 +16,7 @@
       Details &raquo;
     <% end %>
   </footer>
-  <% if product.quantity == 0 %>
+  <% if product.sold_Out? %>
     <aside class="badge badge-danger soldOut">
       <p>SOLD OUT</p>
     </aside>
