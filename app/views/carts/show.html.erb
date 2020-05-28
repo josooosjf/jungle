@@ -6,7 +6,7 @@
     <h1>My Cart</h1>
   </header>
   
-   <% if @cart > 0 %> 
+   <% if !cart_empty? %> 
 
   <div class="panel panel-default items">
     <table class="table table-bordered">
@@ -40,7 +40,7 @@
 
   <% end %>
 
-  <% if @cart == 0 %>   
+  <% if cart_empty? %>   
 
   <h1>Your cart is empty! click here to continue shopping</h1>
   <h1><%= link_to 'Home', products_path %></h1>

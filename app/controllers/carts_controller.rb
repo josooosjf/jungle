@@ -1,7 +1,7 @@
 class CartsController < ApplicationController
 
   def show
-    @cart = enhanced_cart.count
+    
   end
 
   def add_item
@@ -25,5 +25,7 @@ class CartsController < ApplicationController
     cart.delete(product_id) if cart[product_id] < 1
     update_cart cart
   end
+
+  
 
 end
