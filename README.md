@@ -8,6 +8,12 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ![homescreen](https://gyazo.com/1fbfca933eaba5cdae9940e785b8a89e.gif)
 
+## Product Detail
+![productdetail](https://github.com/joshbrookstone/jungle/blob/master/public/images/Screen%20Shot%202020-06-02%20at%201.59.20%20PM.png?raw=true)
+
+## My Cart
+![mycart](https://github.com/joshbrookstone/jungle/blob/master/public/images/My%20Cart.png?raw=true)
+
 ## Buying a product with Stripe
 ![buyproduct](https://gyazo.com/ed455779dad8e32c9b0d978f5137e745.gif)
 
