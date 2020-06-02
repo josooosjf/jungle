@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
   helper_method :cart_subtotal_cents
 
   def cart_empty?
-    @cart == 0
+    cart == {}
   end
   helper_method :cart_empty?
   

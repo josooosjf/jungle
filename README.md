@@ -2,6 +2,14 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+# Screenshots
+
+## Home Page with Products
+
+![homescreen](https://gyazo.com/1fbfca933eaba5cdae9940e785b8a89e.gif)
+
+## Buying a product with Stripe
+![buyproduct](https://gyazo.com/ed455779dad8e32c9b0d978f5137e745.gif)
 
 ## Setup
 
